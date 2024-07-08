@@ -2,7 +2,12 @@
 
 /* header style */
 .header {
-  background-image: linear-gradient(      180deg,      rgb(7, 2, 17),      rgba(7, 2, 17, 0) 100%    ),    url("../assets/images/Banner\ Image.png");
+  background-image: linear-gradient(
+      180deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../assets/images/Banner\ Image.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -10,7 +15,7 @@
   color: white 100%;
   margin: 0 auto;
   margin-top: 15px;
-  border-radius: 25px ;
+  border-radius: 25px;
 }
 
 .header-paragraph {
@@ -35,3 +40,246 @@
 
 p {
   margin-bottom: 25px;
+}
+
+/* main style */
+main {
+  margin: 0 auto;
+  margin-top: 85px;
+}
+
+/* first style */
+.first {
+  max-width: 802.9px;
+  margin: 0 auto;
+}
+
+.first h1,
+p,
+h3 {
+  text-align: center;
+}
+
+.first h1,
+p {
+  color: #ff0000;
+}
+
+.first h1 {
+  font-size: 88px;
+  font-weight: bold;
+}
+
+.first p {
+  font-size: 24px;
+  font-weight: medium;
+}
+
+.first h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* second style */
+.second {
+  position: relative;
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../assets/images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 1320px;
+  color: white 100%;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: 95px;
+}
+
+.second .header {
+  color: rgb(255, 255, 255);
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 632px;
+  height: 246px;
+  margin: 0 auto;
+}
+
+.second h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 126px 512px 0px 126px;
+  margin-bottom: 0;
+}
+
+.second p {
+  color: rgba(255, 255, 255);
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 497px 0px 126px;
+}
+
+.second h4 {
+  color: rgba(255, 255, 255);
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0px 497px 214px 140px;
+  margin-top: 45px;
+}
+
+.second-image {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  z-index: 1;
+  font-size: 4rem;
+  color: gold;
+}
+
+/* third style */
+.third {
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 600px;
+  width: 1320px;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: 95px;
+}
+
+.third p {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 100px;
+}
+
+.third span {
+  color: black;
+}
+
+.third .btn {
+  background-color: #ff0000;
+  color: white;
+  font-size: 24px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+}
+
+/* forth style */
+/* circle style */
+.circle {
+  height: 600px;
+  width: 1320px;
+  color: white 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle .left {
+  max-width: 30%;
+}
+
+.circle .left h3 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.circle .left h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.circle .left p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.circle .middle img {
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.circle .middle {
+  max-width: 40%;
+}
+
+.circle .right {
+  max-width: 30%;
+}
+
+.circle .right h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.circle .right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.circle .right img {
+  background: linear-gradient(
+    180deg,
+    rgb(248, 246, 251) 16.935%,
+    rgb(239, 220, 251) 88.811%
+  );
+}
